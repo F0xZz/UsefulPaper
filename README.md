@@ -8,7 +8,7 @@
 
 1. 编程能力
 
-   Python(入门)/C++(入门)/Cuda(了解)
+   Python(入门)/C++(入门)/Cuda(了解)/FFmpeg(了解)
 
    Python 看得懂网络层级结构和前后处理，可根据需求一定程度上更改模型和部分结构，pytorch框架居多
 
@@ -32,6 +32,8 @@
 
    构建过reid数据集，检测数据集，分类数据集等。
 
+   FFmpeg推拉流H.264格式，CPU软解。
+
 3. 图像方向：较为熟悉传统算法，目标检测，分类方向。语义分割，NLP，细粒度分析了解不深。
 
 4. 会记录文档，有良好记录习惯和自主学习和阅读paper能力。
@@ -54,6 +56,10 @@ maybe some personal advice in the github
 ## Target
 
 wanna Each one can add the code explanation with paper and help the each one to make easier to read code and paper 
+
+## 3rdToolDoc
+
+use for the store the information just like  install docker  opencv and some problem in the working
 
 ## Topic
 
