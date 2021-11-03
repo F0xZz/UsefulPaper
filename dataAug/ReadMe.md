@@ -1,3 +1,3 @@
-#
-Name Albumentations:fast and flexible image augmentations 
+# Paper 
+Name: Albumentations:fast and flexible image augmentations 
 
