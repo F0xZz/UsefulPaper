@@ -52,7 +52,7 @@ link_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib)
 #    )
 pybind11_add_module(example main.cpp)
 set_target_properties(example PROPERTIES OUTPUT_NAME "example")
-target_link_libraries(example PUBLIC Qt5::Widgets Qt5::Core Qt5::Gui cryptolib ${OpenCV_LIBS})
+target_link_libraries(example PUBLIC Qt5::Widgets Qt5::Core Qt5::Gui ${OpenCV_LIBS})
 #install(TARGETS  RUNTIME DESTINATION bin)
 ```
 
