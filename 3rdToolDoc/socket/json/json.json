@@ -1,0 +1,19 @@
+{
+  "pi": 3.141,
+  "happy": true,
+  "name": "Niels",
+  "nothing": null,
+  "answer": {
+    "everything": 42
+  },
+  "list": [1, 0, 2],
+  "object": {
+    "currency": "USD",
+    "value": 42.99
+  },
+"boud":{"point1":[2,5],
+"point2":[4,5],
+"point3":[6,5],
+"point4":[8,5]
+}
+}
