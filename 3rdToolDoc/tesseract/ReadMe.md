@@ -31,3 +31,19 @@ sudo apt-get install libleptonica-dev
 其中会遇到数据结构转换的问题Mat数据存储格式和Pix存储格式
 
 [Mat2Pix](https://blog.csdn.net/andylanzhiyong/article/details/83305924)
+
+```c++
+Pix* cvtMat2PIX(cv::Mat imgGray)
+{
+    int cols = imgGray.cols;
+    int rows = imgGray.rows;
+
+    Pix *pixS = pixCreate(cols, rows, 8);
+
+    for (int i = 0; i < rows; i++)
+        for (int j = 0; j < cols; j++)
+            pixSetPixel(pixS, j, i, (l_uint32)imgGray.at<uchar>(i, j));
+    return pixS;
+}
+```
+
