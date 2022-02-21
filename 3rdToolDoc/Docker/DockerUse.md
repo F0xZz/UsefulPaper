@@ -531,9 +531,10 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 
    
 
-3. 
 
+3.[快速解决docker生成镜像时提示Could not resolve ‘archive.ubuntu.com’问题](https://www.cnblogs.com/netflix/p/12204998.html)
 
+> DOCKER_OPTS="–dns 8.8.8.8 –dns 8.8.4.4"
 
 ## 卸载docker
 
