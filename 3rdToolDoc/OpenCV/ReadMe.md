@@ -26,7 +26,7 @@
   cd build
   cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_EXTRA_MODULES_PATH=/home/ubuntu/3rdpart/opencv-3.4.12/opencv_contrib-3.4/modules ..
   ```
- cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_EXTRA_MODULES_PATH=/home/ubuntu/3rdpart/opencv_contrib-3.4/modules ..
+   cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_EXTRA_MODULES_PATH=/home/ubuntu/3rdpart/opencv_contrib-3.4/modules ..
   ```shell
   make -j4
   #optional 创建文档
@@ -38,7 +38,7 @@
   sudo make install #安装
   ```
 
-  ![end](/home/ubuntu/Pictures/end.png)
+  
 
   安装完成测试
 
@@ -46,9 +46,7 @@
    pkg-config opencv --modversion
   ```
 
-  ![version](/home/ubuntu/Pictures/version.png)
-
-- 测试用例
+  测试用例
 
   ```shell
   git clone https://github.com/opencv/opencv_extra.git
@@ -62,21 +60,21 @@
   ```
 
   - 环境配置
-  
+
   ```shell
   sudo gedit /etc/ld.so.conf
   ```
-  
+
   添加opencv路径
-  
+
   ```
   /usr/local/lib
   ```
-  
+
   ```shell
   sudo ldconfig #生效
   ```
-  
+
   ```shell
   sudo gedit /etc/bash.bashrc
   #在末尾添加
@@ -86,8 +84,9 @@
   ##
   source /etc/bash.bashrc
   ```
+
   
-  
+
 
 ##  python-opencv
 
@@ -101,7 +100,7 @@
 
 4. 找到Makefile修改以下内容（前提配置好Opencv Cuda ）
 
-   ![yolo](/home/ubuntu/Pictures/yolo.png)
+   
 
 5. 直接使用
 

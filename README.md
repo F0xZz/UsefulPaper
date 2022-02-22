@@ -18,6 +18,30 @@ wanna Each one can add the code explanation with paper and help the each one to 
 
 use for the store the information just like  install docker  opencv and some problem in the working
 
+this folder has included the information about :
+
+**Algorithm** : this folder has included some algortithm
+
+**c2py** :this folder has included the method of how to solve the problem c++ to python
+
+**CMake** : this folder how to learn cmake
+
+**Docker** : Docker usage 
+
+**GPU** : GPU nvidia and vulkan
+
+**Issuses** :some issuses about my working
+
+**MILR** : not ready to learn
+
+**OpenCV** :how to install and darknet 
+
+**OptimOP** :how to optim the Op
+
+**Socket** : Socket usage and enc/dec
+
+**Tesseract**: how to use the easy demo about the Tesseract OCR
+
 ## Topic
 
 Paper with code explanation~!! Not paper with code ~! Use for the greenHand just like me 
