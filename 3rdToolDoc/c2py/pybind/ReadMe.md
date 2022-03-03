@@ -92,3 +92,11 @@ make
 > 5
 ```
 
+## 关于python引用调用
+
+[reference](https://www.cnblogs.com/Xingtxx/p/11044255.html)
+
+这里记住的是类型是属于对象的，而不是变量。
+而对象有两种,“可更改”（mutable）与“不可更改”（immutable）对象。在python中，strings, tuples, 
+和numbers是不可更改的对象，而 list, dict, set 等则是可以修改的对象。(这就是这个问题的重点)
+当一个引用传递给函数的时候,函数自动复制一份引用,这个函数里的引用和外边的引用没有半毛关系了.
