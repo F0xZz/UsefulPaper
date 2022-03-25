@@ -40,3 +40,30 @@ add_library(message
 list(APPEND _sources Message.hpp Message.cpp)
 ```
 
+### 系统自动链接的库
+
+gcc和g++会自动检索 
+
+/etc/ld.so.conf 文件中的内容
+
+在内容中如果存在
+
+```
+include /etc/ld.so.conf.d/*.conf
+```
+
+关于该目录底下存在如下文件:
+
+```
+aarch64-linux-gnu.conf      fakechroot-aarch64-linux-gnu.conf
+aarch64-linux-gnu_EGL.conf  fakeroot-aarch64-linux-gnu.conf
+aarch64-linux-gnu_GL.conf   libc.conf
+cuda-10-2.conf              nvidia-tegra.conf
+```
+
+任何一个文件打开，例如cuda-10-2.conf，指向了如下目录。
+
+```
+/usr/local/cuda-10.2/targets/aarch64-linux/lib
+```
+

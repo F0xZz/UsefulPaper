@@ -11,3 +11,22 @@
  `分别输入 github.global.ssl.fastly.net和github.com，查询 ip 地址
 
 更改最后hosts文件的内容
+
+基础指令
+
+git clone
+
+git add ./
+
+git commit -m 
+
+
+
+```
+ git submodule update --init
+```
+
+```
+git clone -b archive //某个分支
+git checkout -b //某个细分支
+```
