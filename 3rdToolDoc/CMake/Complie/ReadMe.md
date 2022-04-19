@@ -48,3 +48,18 @@ $ gcc -Dmacro hello.c
 
 由于编译之前，需要对语言进行基础的词法分析，语法分析，接着才会将源代码翻译成中间语言。
 
+## gcc 常用指令
+
+[gcc website](http://gcc.gnu.org/releases.html)
+
+**gcc -E source_file.c**
+
+-E，只执行到预编译。直接输出预编译结果。
+
+ **gcc -S source_file.c**
+
+-S 汇编
+
+**gcc -c source_file.c**
+
+-c 只执行编译，输出执行文件

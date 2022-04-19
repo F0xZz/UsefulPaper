@@ -130,3 +130,17 @@ nvinfer1::ICudaEngine* buildCudaEngine(
         nvinfer1::INetworkDefinition& network)
 ```
 
+考虑到初期的模型Mnist结构较为简单，先从简单的API构造开始
+
+由于官方提供了Mnist.wts的文件，位于\<tensorrt-folder\>/data/mnist文件中的mnist.wts可以双击打开，会发现文件结构为
+
+```
+12 ---第一行
+conv1bias 0 20 be163427 bdc86504 bd3d9091 bdb8090b bde8c7fd bd6ed550 bd2bc2b3 3922348a bd5ef1e2 bdb6e347 bdd4547b bd638f4d bde04ed7 bdf022bb bda7215a bd5e0fc5 bd314724 bd85ad1d bc6ad8a5 bdde93be  --- 第二行
+//以此类推，官方给出的解释为如下形式
+<number of weight sets>  第一行
+[weights_name] [size] <data x size in hex> ----第二行 0x20
+[weights_name] [size] <data x size in hex>
+[weights_name] [size] <data x size in hex> 
+```
+
