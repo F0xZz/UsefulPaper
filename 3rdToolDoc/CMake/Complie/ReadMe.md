@@ -63,3 +63,4 @@ $ gcc -Dmacro hello.c
 **gcc -c source_file.c**
 
 -c 只执行编译，输出执行文件
+
